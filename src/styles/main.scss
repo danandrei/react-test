@@ -1,0 +1,85 @@
+@import './variables.scss';
+@import './mixins.scss';
+@import '~bootstrap/scss/root';
+@import '~bootstrap/scss/reboot';
+@import '~bootstrap/scss/grid';
+@import '~bootstrap/scss/forms';
+@import '~bootstrap/scss/buttons';
+@import '~bootstrap/scss/transitions';
+
+html,
+body,
+#root {
+  min-height: 100%;
+  font-size: 100%;
+}
+
+.f-0 {
+  font-size: 0 !important;
+}
+
+.f-10 {
+  font-size: 10px !important;
+}
+
+.f-11 {
+  font-size: 11px !important;
+}
+
+.f-12 {
+  font-size: 12px !important;
+}
+
+.f-14 {
+  font-size: 14px !important;
+}
+
+.f-16 {
+  font-size: 16px !important;
+}
+
+.f-18 {
+  font-size: 18px !important;
+}
+
+.h-100 {
+  height: 100% !important;
+}
+
+// Margins
+@include margin(0);
+@include margin(4);
+@include margin(5);
+@include margin(6);
+@include margin(8);
+@include margin(10);
+@include margin(12);
+@include margin(15);
+@include margin(16);
+@include margin(20);
+@include margin(24);
+@include margin(25);
+@include margin(30);
+@include margin(40);
+@include margin(50);
+@include margin(100);
+
+.m-x-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Paddings
+@include padding(0);
+@include padding(5);
+@include padding(8);
+@include padding(10);
+@include padding(12);
+@include padding(15);
+@include padding(16);
+@include padding(20);
+@include padding(24);
+@include padding(30);
+@include padding(40);
+@include padding(50);
+@include padding(60);

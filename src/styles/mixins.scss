@@ -1,0 +1,47 @@
+@mixin margin($size) {
+  $unit: #{$size}px;
+
+  .m-#{$size} {
+    margin: $unit !important;
+  }
+
+  .mt-#{$size} {
+    margin-top: $unit !important;
+  }
+
+  .mr-#{$size} {
+    margin-right: $unit !important;
+  }
+
+  .mb-#{$size} {
+    margin-bottom: $unit !important;
+  }
+
+  .ml-#{$size} {
+    margin-left: $unit !important;
+  }
+}
+
+@mixin padding($size) {
+  $unit: #{$size}px;
+
+  .p-#{$size} {
+    padding: $unit !important;
+  }
+
+  .pt-#{$size} {
+    padding-top: $unit !important;
+  }
+
+  .pr-#{$size} {
+    padding-right: $unit !important;
+  }
+
+  .pb-#{$size} {
+    padding-bottom: $unit !important;
+  }
+
+  .pl-#{$size} {
+    padding-left: $unit !important;
+  }
+}
